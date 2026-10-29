@@ -1,0 +1,24 @@
+# 1. Проверка навигации
+pwd
+ls /
+cd /a/b/c
+pwd
+ls
+
+# 2. Чтение файла из VFS
+cat deep_file.txt
+
+# 3. Изменение VFS (в памяти)
+mkdir new_folder
+touch new_folder/new_file.txt
+ls
+cd new_folder
+pwd
+
+# 4. Проверка обработки ошибок
+unknown_command
+cd /does/not/exist
+cat missing.txt
+
+# 5. Выход
+exit
